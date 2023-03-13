@@ -1,0 +1,166 @@
+.fast_parity_container {
+  height: -webkit-fill-available;
+  animation: 9s ease-out 0s 1 slideinfrombottom;
+  position: fixed;
+  top: 0%;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.parity_form {
+  /* display: flex; */
+  bottom: 0%;
+  position: fixed;
+  background: white;
+  width: 100vw;
+  max-width: 420px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+  /* padding: 10px 20px; */
+}
+.parity_form_header {
+  /* color: #1565c0; */
+  height: 46px;
+  line-height: 46px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  margin: 5px;
+}
+.parityinputform {
+  margin: 0 10px;
+  height: 55px;
+  line-height: 49px;
+  border-radius: 12px;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  /* box-shadow: rgba(109, 108, 108, 0.25) 0px 4px 4px; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 5px, rgba(0, 0, 0, 0.23) 0px 1px 1px;
+}
+.parityinputform p {
+  color: #383b45;
+  font-size: 27px;
+}
+
+.parityinputform button {
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: -webkit-fill-available;
+  max-width: 100px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 10px;
+  border: none;
+  box-shadow: rgba(109, 108, 108, 0.25) 0px 8px 8px;
+}
+.parityinputform button a {
+  text-decoration: none;
+  color: #fff;
+}
+.parity_contractmoney {
+  padding: 10px;
+}
+.parity_contract_boxes {
+  display: flex;
+}
+.parity_contract_box {
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 15px;
+  width: 150px;
+  height: 44px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 7px;
+}
+
+.parity_contract_box_minus {
+  border: 2px solid rgb(214, 214, 214);
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 2px 15px;
+  margin-top: 10px;
+  margin-left: 90px;
+  width: 50px;
+  height: 44px;
+  text-align: center;
+}
+.parity_contract_box_minus p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.parity_contract_box_plus {
+  border: 2px solid rgb(214, 214, 214);
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 16px;
+  padding: 1px 15px;
+  margin-top: 10px;
+  margin-right: 90px;
+  width: 50px;
+  height: 44px;
+  text-align: center;
+}
+.parity_contract_box_plus p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.parity_numbers_main {
+  padding: 5px 10px;
+}
+
+.contract_money_text {
+  color: gray;
+  margin: 7px 5px;
+  font-size: 18px;
+}
+.parity_Number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: -webkit-fill-available;
+  /* padding: 10px; */
+}
+.parity_number_left {
+  display: flex;
+}
+.parity_number_right {
+  display: flex;
+}
+.parity_number_middle {
+  color: red;
+  font-weight: 700;
+  font-size: 28px;
+}
+.total_contract_money {
+  padding: 5px 10px;
+}
+.parity_form_button {
+  color: #fff;
+  /* background: #0093ff; */
+  box-shadow: #0000004d 0px 0px 8px;
+  border-radius: 8px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  font-weight: bold;
+  width: -webkit-fill-available;
+  text-align: center;
+  margin: 5px 10px;
+  border: none;
+  /* padding: 5px 10px; */
+}

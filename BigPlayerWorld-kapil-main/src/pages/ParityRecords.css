@@ -1,0 +1,11 @@
+.parity_records_table thead th {
+  padding: 10px 30.3px;
+  font-size: 17px;
+  color: white;
+  background-color: #644fd1;
+}
+.parity_records_table tbody td {
+  font-size: 16px;
+  text-align: center;
+  padding: 8px 0px;
+}

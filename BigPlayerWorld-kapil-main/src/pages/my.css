@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.my_container {
+  width: 100vw;
+  max-width: 422px;
+  min-height: 100vh;
+  height: fit-content;
+  border: 1px solid black;
+}
+.top_purple {
+  background-color: white;
+  height: 76px;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.my_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999;
+  flex: 1;
+  margin-bottom: 6px;
+
+  width: -webkit-fill-available;
+  z-index: 1;
+  margin: 10px 10px 10px 10px;
+}
+.my_main_usercard {
+  background: #f9fcff;
+  border: 1px solid #d0ebff;
+  /* border: 1px solid #343536; */
+  border-radius: 4px;
+  flex: 1;
+  margin-bottom: 6px;
+  color: #333;
+  width: -webkit-fill-available;
+  z-index: 1;
+  padding: 15px;
+}
+
+.user_card_up {
+  display: flex;
+  /* padding: 10px; */
+}
+.user_card_up img {
+  height: 42px;
+  min-width: 42px;
+  border-radius: 10000px;
+  margin-right: 25px;
+}
+.user_card_info {
+}
+
+.user_card_info_details {
+  display: flex;
+}
+
+.user_card_info_details p {
+  margin: 0px 3px;
+}
+.usercard_down {
+  margin-top: 10px;
+}
+.usercard_down button {
+  /* background-color: #fff; */
+  background-color: gray;
+  border: 1px solid #644fd1;
+
+  color: #644fd1;
+  min-width: 120px;
+  margin-right: 10px;
+  padding: 8px 5px;
+  border-radius: 5px;
+}
+
+.my_main_options {
+  margin-top: 2px;
+  width: -webkit-fill-available;
+}
+.my_main_option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 15px 0px;
+  text-decoration: none;
+}
+.my_main_option_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #413f3f; */
+  padding-right: 20px;
+}
+.my_main_option_left i {
+  margin-right: 18px;
+  margin-left: 7px;
+}
+.my_main_option_img {
+  height: 15px;
+  width: 15px;
+}
+.my_main_option_left_img {
+  height: 22px;
+  width: 22px;
+  margin-left: 5px;
+  margin-right: 10px;
+  /* color: ; */
+}
+.follow_us_img {
+  width: 30%;
+}
+.financial_details_menu {
+  margin-left: 30px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.follow_us_toggle {
+  /* display: flex; */
+  /* color: #413f3f; */
+  /* justify-content: center; */
+  /* border-bottom: 1px solid lightgray; */
+  padding: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  transition: padding 0.5s;
+}
+.follow_us_toggle.open_toggle {
+  max-height: 75px;
+  /* margin-top: 5px; */
+  padding: 10px 10px;
+  color: black;
+}
+.signout_button {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+
+  line-height: 20px;
+  /* list-style: none; */
+  margin-bottom: 70px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  /* text-decoration: none; */
+  font-weight: bold;
+}
+
+/* Soical Media Icon */
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 45px;
+  height: 45px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877f2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1da1f2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #e4405f;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #cd201f;
+  color: #ffffff;
+}
+
+/* Dark Mode */
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 53px;
+  height: 26px;
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  /* transform: scale(1.5); */
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
+}
+
+.darkmode-button {
+  margin-left: 70px;
+}
+.darkmode-button-new {
+  padding: 4px 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  /* border: 1px solid black; */
+
+  /* font-size: 16px; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width: 340px) {
+  .usercard_down button {
+    background-color: gray;
+    border: 1px solid #644fd1;
+    color: #644fd1;
+    min-width: 80px;
+    margin-right: 10px;
+    padding: 8px 5px;
+    border-radius: 5px;
+  }
+}

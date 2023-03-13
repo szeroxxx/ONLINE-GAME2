@@ -1,0 +1,102 @@
+.modalContainerHeadTail {
+  top: 30vh;
+}
+.modalHeadTail {
+  z-index: 2;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  margin-top: -180px;
+  margin-left: -148px;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.modal_header {
+  position: relative;
+}
+.modal_header-title {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+}
+
+.modal_content {
+  padding: 2rem 0;
+  margin: 0 10%;
+}
+
+.modal_footer {
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-btn-HeadTail {
+  background-color: rgb(50, 50, 192);
+  color: white;
+  border: 0;
+  height: 5vh;
+  margin: 0 2vw;
+  padding: 1vh 2vw;
+  border-radius: 5px;
+  float: right;
+  margin-top: 20px;
+}
+
+.msg {
+  text-align: center;
+  font-size: larger;
+  color: red;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  .modalHeadTail {
+    z-index: 2;
+    width: 260px;
+    height: 100px;
+    margin: auto;
+    margin-top: -180px;
+    margin-left: -130px;
+    position: absolute;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .modalHeadTail {
+    z-index: 2;
+    width: 200px;
+    height: 90px;
+    margin: auto;
+    margin-top: -180px;
+    margin-left: -100px;
+    position: absolute;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+    position: fixed;
+  }
+}

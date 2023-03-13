@@ -1,0 +1,115 @@
+.minesweeper_game {
+  padding: 10px;
+  background-color: #f7f7f7;
+  height: 70vh;
+}
+.minesweeper_top {
+  background: #4ba3d4;
+  color: #fff;
+  font-size: 24px;
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  padding-top: 8px;
+}
+.left_top {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  text-align: -webkit-left;
+}
+
+.left_top img {
+  height: 28px;
+}
+.minesweeper_main {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 270px;
+  aspect-ratio: 1;
+  background: #4ba3d4;
+  color: #fff;
+  align-items: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+.msbox {
+  aspect-ratio: 1;
+  background: #89cdff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #4ba3d4;
+  padding: 0;
+  box-shadow: 0 0 2px #0000005c;
+  height: 33%;
+}
+.ms-embox {
+  cursor: pointer;
+  background: url(/public/assets/ms_box_ic.png);
+  background-size: cover;
+  background-color: #aadbff;
+  min-height: 90%;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  border: 4px solid #e8f3ff;
+  height: 20%;
+}
+.ms_start {
+  background: url(/public/assets/ms_start.png);
+  background-size: cover;
+  position: absolute;
+  height: 156px;
+  width: 156px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.zooani {
+  animation: zoominoutsinglefeatured 1s infinite;
+}
+.second_main.up {
+  font-size: 14px;
+  background: #fff;
+  color: #555;
+  height: 80px;
+}
+.second_main {
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  padding-top: 15px;
+}
+.ms_my_order {
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 -3px 6px 0 #6e6e6e30;
+  height: 48px;
+  white-space: nowrap;
+  line-height: 48px;
+  transition: 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+  color: #979797;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  background: #fff;
+}
+.m_order {
+  line-height: 36px;
+  background: #f1f1f1;
+  border-radius: 12px 12px 0 0;
+  cursor: pointer;
+  color: #919191;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}

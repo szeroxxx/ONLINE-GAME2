@@ -1,0 +1,49 @@
+.modalContainer {
+    top: 30vh;
+  }
+  .modal {
+    margin: 2vh 2vw;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  }
+
+    .modal_header {
+      position: relative;
+    }
+    .modal_header-title {
+        text-align: center;
+      }
+
+    .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: transparent;
+      }
+
+
+    .modal_content {
+      padding: 2rem 0;
+      margin: 0 10%;
+    }
+
+    .modal_footer {
+      padding-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+      .modal-btn{
+        background-color: rgb(50, 50, 192);
+        color: white;
+        border: 0;
+        height: 5vh;
+        margin:  0 2vw;
+        padding: 1vh 2vw;
+        border-radius: 5px;
+    }
+      
+      

@@ -1,0 +1,66 @@
+.fields {
+  padding: 25px 20px 0px 25px;
+}
+
+.add_upi_header {
+  background-color: #644fd1;
+  /* height: 40px; */
+  display: flex;
+  /* justify-content: space-between; */
+  color: white;
+  align-items: center;
+  padding: 15px;
+}
+.add_upi_header img {
+  height: 16px;
+  width: 16px;
+}
+
+.paytm_wallet_heading {
+  /* font-weight: bolder; */
+  font-size: 18px;
+  margin-left: 125px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-top: 15px;
+}
+
+.Add_Upi_Buttons {
+  margin: 10px;
+}
+
+.add_button {
+  flex: 1;
+  width: 100%;
+  background-color: #644fd1;
+  color: white;
+  padding: 13px 0px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.add_button:hover {
+  background-color: rgb(81, 81, 172);
+}
+
+.cancel_button {
+  flex: 1;
+  width: 100%;
+  /* background-color: #0093ff; */
+  /* background-color: #644fd1; */
+  color: white;
+  padding: 13px 0px;
+  color: gray;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+.heading{
+  
+   text-align: center;
+   margin-top: 50px;
+}
+.heading1{
+    
+
+    font-family:  "kumbh Sans";
+    font-weight: bold;
+    font-size: 24px;
+}
+.heading2{
+    margin-top: 24px;
+    margin-bottom: 70px;
+    font-family:  "kumbh Sans";
+    font-size: 20px;
+}
+.container1{
+      margin-top: "250px";
+      margin-bottom: "45px";
+}
+.code{
+    font-family:  "kumbh Sans";
+    cursor: pointer;
+    color:  #644FD1;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px black dotted;
+    width: fit-content;
+    margin-left: 140px;
+    margin-top: 40px;
+    
+}
+
+/* .back-icon{
+   
+    height: 35px;
+    border-radius: 50px;
+} */

@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Public+Sans&family=Roboto&family=Sassy+Frass&display=swap");
+
+.admin_login_container {
+  width: 100%;
+  height: 100vh;
+}
+.admin_login {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  width: 33%;
+  position: relative;
+  top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.admin_login_heading {
+  font-size: 1.5rem;
+  font-family: "Public Sans", sans-serif;
+  color: #33303cde;
+  font-weight: bold;
+}
+.adminLoginP {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+.forgot_password_button {
+  color: #7367f0;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+.signin_button {
+  background-color: #7367f0;
+  color: white;
+  width: 100%;
+  border-radius: 6px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: "Public Sans", sans-serif;
+}
+
+/* old css */
+.admin_lgin_header {
+  display: flex;
+  justify-content: end;
+}
+/* .admin_login_heading {
+  align-items: center;
+  justify-content: center;
+  color: rgb(38, 37, 37);
+  display: flex;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+} */
+.create_account_button {
+  border: 2px solid rgb(171, 168, 168);
+  height: 35px;
+  width: 160px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 80px;
+  border-radius: 7px;
+}
+
+.blue_signIn_button {
+  background-color: rgb(62, 62, 255);
+  color: aliceblue;
+  border-radius: 6px;
+  padding: 10px;
+  margin-left: 80px;
+  margin-top: 10px;
+  height: 40px;
+  width: 300px;
+}
+.footer_text {
+  margin-left: 140px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: gray;
+}
+.admin_login_form {
+  width: 65%;
+  height: 50%;
+  margin-top: 40px;
+  margin: auto;
+}
+
+.email_label {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+
+.email_input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid rgb(176, 173, 173);
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.admin_login_forminput [type="email"] {
+  margin: 15px 0px;
+
+  padding: 5px 10px;
+  width: 100%;
+  height: 40px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.admin_login_forminput [type="password"] {
+  margin: 15px 0px;
+
+  padding: 5px 10px;
+  width: 100%;
+  height: 40px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+.password_forgotpassword {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.hr {
+  margin-top: 120px;
+}
+
+.admin_login_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_button {
+  margin: 10px;
+  color: rgb(65, 194, 246);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .admin_login {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+    position: relative;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .admin_login_heading {
+    font-size: 1.3rem;
+    font-family: "Public Sans", sans-serif;
+    color: #33303cde;
+    font-weight: bold;
+  }
+  .adminLoginP {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+  }
+  .forgot_password_button {
+    color: #7367f0;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+  }
+  .signin_button {
+    background-color: #7367f0;
+    color: white;
+    width: 100%;
+    border-radius: 6px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: "Public Sans", sans-serif;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .admin_login {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .admin_login_heading {
+    font-size: 1.3rem;
+    font-family: "Public Sans", sans-serif;
+    color: #33303cde;
+    font-weight: bold;
+  }
+  .adminLoginP {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+  }
+  .forgot_password_button {
+    color: #7367f0;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+  }
+  .signin_button {
+    background-color: #7367f0;
+    color: white;
+    width: 100%;
+    border-radius: 6px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: "Public Sans", sans-serif;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .admin_login {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 55%;
+    position: relative;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .admin_login_heading {
+    font-size: 1.3rem;
+    font-family: "Public Sans", sans-serif;
+    color: #33303cde;
+    font-weight: bold;
+  }
+  .adminLoginP {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+  }
+  .forgot_password_button {
+    color: #7367f0;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+  }
+  .signin_button {
+    background-color: #7367f0;
+    color: white;
+    width: 100%;
+    border-radius: 6px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: "Public Sans", sans-serif;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .admin_login {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+    position: relative;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .admin_login_heading {
+    font-size: 1.1rem;
+    font-family: "Public Sans", sans-serif;
+    color: #33303cde;
+    font-weight: bold;
+  }
+  .adminLoginP {
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+  }
+  .email_label {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+  .forgot_password_button {
+    color: #7367f0;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+  }
+  .signin_button {
+    background-color: #7367f0;
+    color: white;
+    width: 100%;
+    border-radius: 6px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .admin_login_forminput [type="email"] {
+    margin: 15px 0px;
+    padding: 4px 10px;
+    width: 100%;
+    height: 20px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    outline: 5px solid #eff4f7;
+    -moz-outline-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  .admin_login_forminput [type="password"] {
+    margin: 15px 0px;
+    padding: 5px 10px;
+    width: 100%;
+    height: 40px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    outline: 5px solid #eff4f7;
+    -moz-outline-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .admin_login {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    position: relative;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .admin_login_heading {
+    font-size: 1.1rem;
+    font-family: "Public Sans", sans-serif;
+    color: #33303cde;
+    font-weight: bold;
+  }
+  .adminLoginP {
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+  }
+  .email_label {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+  .forgot_password_button {
+    color: #7367f0;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+  }
+  .signin_button {
+    background-color: #7367f0;
+    color: white;
+    width: 100%;
+    border-radius: 6px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .admin_login_forminput [type="email"] {
+    margin: 15px 0px;
+    padding: 4px 10px;
+    width: 100%;
+    height: 20px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    outline: 5px solid #eff4f7;
+    -moz-outline-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  .admin_login_forminput [type="password"] {
+    margin: 15px 0px;
+    padding: 5px 10px;
+    width: 100%;
+    height: 40px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    outline: 5px solid #eff4f7;
+    -moz-outline-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+}

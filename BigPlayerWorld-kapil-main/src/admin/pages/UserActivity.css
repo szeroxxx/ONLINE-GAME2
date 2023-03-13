@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Public+Sans&family=Roboto&family=Sassy+Frass&display=swap");
+
+.user_activity_main {
+  width: 100%;
+  padding: 30px 30px 20px 40px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-color: white;
+}
+.user_activity_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  font-size: 17px;
+  margin-top: 60px;
+}
+.user_activity_heading {
+  font-size: 23px;
+  color: #7367f0;
+  font-family: "Public Sans", sans-serif;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.user_activity {
+  margin: 15px;
+}
+.actvity-time {
+  display: flex;
+  justify-content: space-between;
+}
+.activity {
+  font-size: 19px;
+  color: #33303cde;
+  font-family: "Roboto", sans-serif;
+}
+.time {
+  color: #33303c61;
+  font-family: "Public Sans", sans-serif;
+}
+.detail {
+  color: #33303cad;
+  font-size: 17px;
+  font-family: "Public Sans", sans-serif;
+}
+.detail2 {
+  color: #33303cde;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 700px) {
+  .user_activity_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 15px;
+    margin-top: 60px;
+  }
+  .user_activity_heading {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .user_activity {
+    margin: 15px 10px;
+  }
+
+  .activity {
+    font-size: 17px;
+  }
+
+  .detail {
+    font-size: 15px;
+  }
+  .detail2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .user_activity_main {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px 10px 10px 10px;
+  }
+  .user_activity_top {
+    display: block;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .actvity-time {
+    display: block;
+    justify-content: space-between;
+  }
+}

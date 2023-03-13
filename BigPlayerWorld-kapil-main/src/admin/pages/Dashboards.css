@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Public+Sans&family=Roboto&family=Sassy+Frass&display=swap");
+
+.dashboard_main {
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 90px;
+  /* padding: 90px 50px 30px 50px; */
+}
+
+.dashboard_navbar {
+  margin: 10px 20px 0 20px;
+  width: 82%;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.main-div {
+  width: 270px;
+  margin-right: 25px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 20px;
+  height: 115px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.admin_dashboard_header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 42px;
+}
+
+.dashboards_cards {
+  display: flex;
+}
+.heading {
+  font-size: 17px;
+  margin-left: 0px;
+  font-weight: 200px;
+  font-family: "Roboto", sans-serif;
+}
+
+.amount {
+  font-size: 20px;
+  font-family: "Public Sans", sans-serif;
+}
+.div-2 {
+  width: 400px;
+  /* margin-left: 130px; */
+  margin-right: 50px;
+  padding: 25px 50px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  height: 400px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.heading-2 {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.timestamp {
+  font-size: 18px;
+  font-family: "Public Sans", sans-serif;
+}
+.left-content {
+  font-size: 18px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.number {
+  background-color: #ada8e7;
+  margin: auto;
+  width: 60px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  height: 40px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.get_button {
+  background-color: #ada8e7;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 95px;
+  width: 110px;
+  height: 40px;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "roboto", sans-serif;
+}
+
+@media screen and (max-width: 1330px) {
+  .dashboard_main {
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 90px;
+  }
+
+  .dashboard_navbar {
+    margin: 10px 20px 0 20px;
+    width: 78%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .main-div {
+    width: 200px;
+    margin-right: 25px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 20px;
+    height: 115px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .admin_dashboard_header {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 42px;
+  }
+  .div-2 {
+    width: 350px;
+    margin-right: 50px;
+    padding: 25px 30px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  .number {
+    background-color: #ada8e7;
+    margin: auto;
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    font-family: "Public Sans", sans-serif;
+  }
+
+  .get_button {
+    background-color: #ada8e7;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 105px;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .dashboard_main {
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+  }
+
+  .dashboard_navbar {
+    margin: 10px 20px 0 20px;
+    width: 74%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .main-div {
+    width: 140px;
+    margin-right: 25px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 20px;
+    height: 95px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .heading {
+    font-size: 15px;
+    margin-left: 0px;
+    font-weight: 200px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .amount {
+    font-size: 17px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .admin_dashboard_header {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 42px;
+  }
+  .div-2 {
+    width: 300px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  .heading-2 {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .timestamp {
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .left-content {
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .number {
+    background-color: #ada8e7;
+    margin: auto;
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    font-family: "Public Sans", sans-serif;
+  }
+
+  .get_button {
+    background-color: #ada8e7;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 95px;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .dashboard_main {
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    white-space: nowrap;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .dashboard_navbar {
+    margin: 10px 20px 0 20px;
+    width: 94%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .main-div {
+    width: 140px;
+    margin-right: 25px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 20px;
+    height: 95px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .heading {
+    font-size: 15px;
+    margin-left: 0px;
+    font-weight: 200px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .amount {
+    font-size: 17px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .admin_dashboard_header {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 42px;
+  }
+  .div-2 {
+    width: 300px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  .heading-2 {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .timestamp {
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .left-content {
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .number {
+    background-color: #ada8e7;
+    margin: auto;
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    font-family: "Public Sans", sans-serif;
+  }
+
+  .get_button {
+    background-color: #ada8e7;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 95px;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .dashboard_main {
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 90px;
+  }
+
+  .dashboard_navbar {
+    margin: 10px 20px 0 20px;
+    width: 94%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .main-div {
+    width: 120px;
+    margin-right: 15px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 20px;
+    height: 95px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .heading {
+    font-size: 13px;
+    margin-left: 0px;
+    font-weight: 200px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .amount {
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .admin_dashboard_header {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 42px;
+  }
+  .div-2 {
+    width: 300px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  .heading-2 {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .timestamp {
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .left-content {
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .number {
+    background-color: #ada8e7;
+    margin: auto;
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    font-family: "Public Sans", sans-serif;
+  }
+
+  .get_button {
+    background-color: #ada8e7;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 95px;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "roboto", sans-serif;
+  }
+}

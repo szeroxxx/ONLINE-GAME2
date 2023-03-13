@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Public+Sans&family=Roboto&family=Sassy+Frass&display=swap");
+.user_management_main {
+  width: 100%;
+  padding: 10px 10px 20px;
+  margin-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-color: white;
+}
+.user_management_navbar {
+  margin: 10px 20px 0 20px;
+  width: 82%;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.User_management_heading_left {
+  width: 200px;
+  margin-left: 20px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  height: 80px;
+  font-family: "Roboto", sans-serif;
+}
+.total_user {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.input_heading {
+  margin-top: 20px;
+  margin-right: 25px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: 1px solid rgb(172, 171, 171);
+}
+
+.user_management_table {
+  background-color: white;
+  padding: 20px 20px 20px 0px;
+  margin: auto;
+  width: 100%;
+}
+.user_management_table th {
+  color: #33303cde;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.user_management_table td {
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+}
+
+.background {
+  background-color: rgb(189, 189, 189);
+}
+
+@media screen and (max-width: 1230px) {
+  .user_management_navbar {
+    margin: 10px 20px 0 20px;
+    width: 78%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .user_management_main {
+    width: 100%;
+    padding: 10px 10px 20px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background-color: white;
+  }
+  .user_management_table {
+    background-color: white;
+    padding: 20px 20px 20px 0px;
+    margin: auto;
+    width: 100%;
+  }
+  .user_management_table th {
+    color: #33303cde;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-family: "Public Sans", sans-serif;
+  }
+
+  .user_management_table td {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: "Public Sans", sans-serif;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .User_management_heading_left {
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    height: 70px;
+    font-family: "Roboto", sans-serif;
+  }
+  .total_user {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .input_heading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    width: 210px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    height: 35px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border: 1px solid rgb(172, 171, 171);
+  }
+  .user_management_navbar {
+    margin: 10px 20px 0 20px;
+    width: 95%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .total_user {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .user_management_table {
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    font-size: 13px;
+  }
+  .user_management_table th {
+    color: #33303cde;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    font-family: "Public Sans", sans-serif;
+  }
+
+  .user_management_table td {
+    padding: 5px;
+    text-align: center;
+    font-family: "Public Sans", sans-serif;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .user_management_main {
+    overflow: auto;
+    white-space: nowrap;
+  }
+}

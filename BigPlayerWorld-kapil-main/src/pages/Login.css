@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+
+.login-container1 {
+  margin: 5% 15%;
+}
+
+.reg1 {
+  padding-top: 5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  max-height: 100%;
+}
+
+.coupon12 {
+  cursor: pointer;
+  color: rgb(50, 50, 192);
+  border-bottom: 1px dotted;
+  margin-top: 10%;
+}
+
+.coupon112 {
+  cursor: pointer;
+  color: rgb(50, 50, 192);
+  border-bottom: 1px dotted;
+  text-align: center;
+  float: right;
+  margin: 10% 0%;
+}

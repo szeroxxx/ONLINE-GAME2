@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Public+Sans&family=Roboto&family=Sassy+Frass&display=swap");
+
+.parity_management_main {
+  width: 100%;
+  padding: 10px 10px 20px;
+  margin-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-color: white;
+}
+.parity_management_countdown {
+  margin-left: 300px;
+}
+.parityM_countdown {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+}
+.parityM_timer {
+  font-family: "Public Sans", sans-serif;
+  font-size: 17px;
+}
+.parity_management_period {
+  margin-right: 300px;
+}
+.timer {
+  margin: 20px 300px;
+}
+
+.gameId {
+  margin: 20px 40px;
+}
+.parity_management_table {
+  width: 100%;
+}
+.parity_management_table th {
+  font-weight: bold;
+  color: #33303cde;
+  font-family: "Public Sans", sans-serif;
+}
+
+.parity_management_table td {
+  padding: 10px 120px 5px 130px;
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+}
+
+@media screen and (max-width: 1340px) {
+  .parity_management_table td {
+    padding: 10px 100px 10px 100px;
+  }
+  .parity_management_countdown {
+    margin-left: 200px;
+  }
+
+  .parity_management_period {
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .parity_management_table td {
+    padding: 10px 80px 10px 80px;
+  }
+  .parity_management_countdown {
+    margin-left: 130px;
+  }
+
+  .parity_management_period {
+    margin-right: 130px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .parity_management_table {
+    width: 100%;
+    font-size: 13px;
+  }
+  .parity_management_table td {
+    padding: 10px 30px 10px 30px;
+  }
+  .parity_management_countdown {
+    margin-left: 40px;
+  }
+
+  .parity_management_period {
+    margin-right: 40px;
+  }
+  .parityM_countdown {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  .parityM_timer {
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .parity_management_period {
+    margin-left: 100px;
+  }
+  .parity_management_main {
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    padding: 10px 10px 20px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background-color: white;
+  }
+  .parity_management_table {
+    width: 100%;
+    font-size: 13px;
+  }
+  .parity_management_table td {
+    padding: 10px 30px 10px 30px;
+  }
+  .parity_management_countdown {
+    margin-left: 40px;
+  }
+
+  .parity_management_period {
+    margin-right: 40px;
+  }
+  .parityM_countdown {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  .parityM_timer {
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+  }
+}

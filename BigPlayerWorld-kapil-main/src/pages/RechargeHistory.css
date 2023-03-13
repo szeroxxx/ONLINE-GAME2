@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Public+Sans&family=Roboto&family=Sassy+Frass&display=swap");
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+.recahrge_records_main {
+  width: 95%;
+  margin-left: 20px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  margin: 10px 0px 10px 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 5px, rgba(0, 0, 0, 0.23) 0px 1px 1px; */
+}
+
+.recharge_record_button_succes {
+  color: white;
+  background-color: #0ed222 !important;
+  padding: 3px;
+  height: 25px;
+  width: 80px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+  text-align: center;
+  font-size: 13px;
+  /* box-shadow: rgba(109, 108, 108, 0.25) 0px 8px 8px; */
+}
+.recharge_record_button_reject {
+  color: white;
+  background-color: #e5180d !important;
+  padding: 3px;
+  height: 25px;
+  width: 80px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+  text-align: center;
+  font-size: 13px;
+  /* box-shadow: rgba(109, 108, 108, 0.25) 0px 8px 8px; */
+}
+.recharge_record_button_pending {
+  color: white;
+  background-color: #efec33 !important;
+  padding: 3px;
+  height: 25px;
+  width: 80px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+  text-align: center;
+  font-size: 13px;
+}
+.recharge_record_button:hover {
+  background-color: #2c6e9d;
+}
+.button_time {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.button_time p {
+  /* font-weight: bold; */
+  color: gray;
+}
+.paytm_money {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.paytm_money p {
+  /* font-weight: bold; */
+  font-size: 19px;
+}

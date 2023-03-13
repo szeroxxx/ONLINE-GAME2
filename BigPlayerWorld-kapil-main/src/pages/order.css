@@ -1,0 +1,38 @@
+.order_main_header {
+  /* overflow: scroll; */
+  display: flex;
+  justify-content: space-between;
+  background: #644fd1;
+  /* padding: 5px 20px; */
+}
+.order_main_header_option {
+  margin: 2px 28px;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  cursor: pointer;
+  font-size: 17px;
+  color: #c1c1c1;
+}
+.order_main_header_option_selected {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+  /* margin: 1px 80px; */
+}
+
+.order_table_content {
+  width: 100%;
+}
+.order_table_content th {
+  height: 38px;
+  line-height: 32px;
+  font-weight: bold;
+}
+.order_table_content tr {
+  height: 38px;
+  line-height: 32px;
+}
+.order_table_content td {
+  text-align: center;
+  font-weight: normal;
+}

@@ -1,0 +1,141 @@
+.dice_timer {
+  display: inline-block;
+  text-align: center;
+  background-color: #f1f3ff;
+  border-bottom: 4px solid #cdd4ff;
+  padding: 0 4px;
+  color: #383b45;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin: 0 2px;
+  height: 32px;
+  width: 26px;
+  line-height: 32px;
+  border-radius: 4px;
+}
+.dice_game {
+  padding: 10px;
+  background-color: #f7f7f7;
+  height: 55vh;
+  border-bottom: 16px solid #ededed;
+}
+.main-1 {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(194deg, #343a40, #343a40);
+  margin-top: 20px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  box-shadow: #818181 0 0 6px 0;
+}
+.less_than_div {
+  border-right: 1px solid #e5e5e5;
+  padding-right: 15px;
+  padding-left: 45px;
+  position: relative;
+  width: 100%;
+  max-width: 50%;
+  text-align: center;
+}
+.multiplier_div {
+  padding-right: 15px;
+  padding-left: 45px;
+  position: relative;
+  width: 100%;
+  max-width: 50%;
+  text-align: center;
+}
+.f-16 {
+  font-size: 16px;
+}
+.f-20 {
+  font-size: 20px;
+}
+.slider {
+  -webkit-appearance: none;
+  border-radius: 12px;
+  width: 100%;
+  height: 20px;
+  background: #b6e0ff;
+  outline: none;
+  -webkit-transition: 0.2s;
+  margin-top: 24px;
+}
+
+input[type="range" i] {
+  cursor: pointer;
+  color: -internal-light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+  padding: initial;
+  border: initial;
+}
+.slidPro {
+  width: 46%;
+  height: 20px;
+  background: #0093ff;
+  border-radius: 12px;
+  position: absolute;
+  top: 266.5px;
+}
+.range_down {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0px;
+  color: #666;
+  font-size: 13px;
+}
+.jnum.dn {
+  color: #fff;
+  height: 56px;
+  line-height: 56px;
+  background: #0760a1;
+  border: none;
+  box-shadow: 0 0 6px #818181;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
+.jnum {
+  margin: 6px 3px;
+  background-color: #ebf7ff;
+  border-radius: 2px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  white-space: nowrap;
+  color: #343a40;
+  border: 1px solid #cdd4ff;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+.DiceRecord {
+  width: 100%;
+  height: 2.2rem;
+  text-align: center;
+  line-height: 2.2rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  top: -7px;
+}
+.Dice-content[data-v-11837e31] {
+  color: #7e8899;
+  width: 100%;
+  /* background-color: black; */
+  height: 14rem;
+  border-top: 0.0625rem solid #6e6e6e30;
+  border-bottom: 16px solid #ededed;
+}
+.dice_last {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  top: -7px;
+}

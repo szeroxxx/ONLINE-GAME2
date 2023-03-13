@@ -1,0 +1,87 @@
+.withdraw_main {
+  padding: 15px;
+}
+.withdraw_main_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.withdraw_main_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ebf7ff;
+  width: 100%;
+  margin: 0;
+  border-radius: 6px;
+  border: 1px solid #d0ebff;
+  transition: 0.2s;
+  font-size: 18px;
+  color: #383b45;
+  cursor: pointer;
+  min-height: 60px;
+  margin-bottom: 35px;
+}
+
+.withdraw_main_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+.withdraw_main_3_main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 25px;
+}
+.ptm_wallet {
+  float: left;
+  padding: 4px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+}
+
+.withdraw_main_4 {
+}
+.withdraw_main_4 input {
+  font-size: 40px;
+  border: none;
+  border-bottom: 1px solid;
+  color: #afaeae;
+  height: 60px;
+  padding: 0px 20px;
+  width: -webkit-fill-available;
+}
+.withdraw_main_4_para {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.withdraw_main_4_para p {
+  color: #979797;
+  line-height: 22px;
+}
+.withdraw_main_4 button {
+  background-color: #a5a5a5;
+  transition-duration: 0s;
+  box-shadow: #0000004d 0 0 10px;
+  line-height: 48px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  pointer-events: none;
+  width: 100%;
+  margin-top: 25px;
+  border: none;
+}

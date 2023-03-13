@@ -1,0 +1,31 @@
+.spin_page_color {
+  background-color: rgb(176, 234, 255);
+}
+#wheel {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 30%; */
+}
+#canvas {
+  width: 100%;
+}
+
+.spin_main {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.spin_main p {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: wavy;
+  color: rgb(109, 107, 107);
+}

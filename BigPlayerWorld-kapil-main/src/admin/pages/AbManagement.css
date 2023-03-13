@@ -1,0 +1,21 @@
+.ab_management_main {
+  background-color: rgb(216, 211, 211);
+  padding: 40px;
+  border-radius: 30px;
+  height: 500px;
+}
+
+.timer {
+  margin: 30px 300px;
+}
+
+.gameId {
+  margin: 30px 40px;
+}
+.ab_management_table th {
+  font-weight: bold;
+}
+
+.ab_management_table td {
+  padding: 10px 120px 10px 130px;
+}

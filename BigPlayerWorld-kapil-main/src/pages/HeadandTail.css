@@ -1,0 +1,246 @@
+.background-top {
+  background-color: #fede17;
+  color: rgb(242, 18, 18);
+}
+.sapre_container {
+  width: 100vw;
+  max-width: 422px;
+  height: 198vh;
+  border: 1px solid black;
+}
+.title {
+  max-width: 60%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 17px;
+}
+.main_spare_game {
+  padding: 10px;
+  background-color: #f7f7f7;
+  /* height: 78vh; */
+}
+.SapreRecord-content[data-v-11837e31] {
+  color: #7e8899;
+  width: 100%;
+  height: 11rem;
+  border-top: 0.0625rem solid #17181b;
+}
+.MyOrder_sapre {
+  background-color: #fede17;
+  color: rgb(242, 18, 18);
+  width: 100%;
+  height: 2.2rem;
+  text-align: center;
+  line-height: 2.2rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.SapreRecord {
+  background-color: #fede17;
+  color: rgb(242, 18, 18);
+  width: 100%;
+  height: 2.2rem;
+  text-align: center;
+  line-height: 2.2rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  /* margin-top: 35px; */
+}
+.head_tail_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.heads_batting {
+  cursor: pointer;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fede17;
+  color: rgb(242, 18, 18);
+
+  border-radius: 25px;
+}
+.heads_batting:disabled {
+  background-color: #cccccc !important;
+  color: white !important;
+}
+.tails_batting {
+  cursor: pointer;
+  padding: 12px 35px;
+  font-size: 18px;
+  font-weight: bold;
+  /* color: white; */
+  /* background-color: #5d5d5d; */
+  background-color: #fede17;
+  color: rgb(242, 18, 18);
+
+  /* background-color: #42c0fb; */
+  border-radius: 25px;
+}
+.tails_batting:disabled {
+  background-color: #cccccc !important;
+  color: white !important;
+}
+.ratio {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.head_text {
+  position: relative;
+  top: 90px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.tail_text {
+  position: relative;
+  top: 90px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+#coin div .inside_tail {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  width: 97%;
+  height: 97%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+#coin div .inside_head {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  width: 97%;
+  height: 97%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+/* flip coin */
+
+div.container2 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#flip {
+  padding: 10px 50px;
+  border-radius: 5px;
+  /* background-color: #5d5d5d; */
+  background-color: #42c0fb;
+  color: white;
+  margin-bottom: 10px;
+}
+#flip:hover {
+  padding: 10px 50px;
+  border-radius: 5px;
+  /* background-color: #6b6b6b; */
+  background-color: #52c1f5;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#coin {
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem 0rem;
+  transform-style: preserve-3d;
+  text-align: center;
+  color: white;
+}
+
+#coin div {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid #5d5d5d; */
+  border-radius: 50%;
+  backface-visibility: hidden;
+  background-size: contain;
+  position: absolute;
+}
+
+.heads {
+  cursor: pointer;
+}
+
+.animate-heads {
+  animation: flipHeads 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flipHeads {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(1800deg);
+  }
+}
+
+.tails {
+  cursor: pointer;
+  transform: rotateY(-180deg);
+}
+
+.animate-tails {
+  animation: flipTails 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flipTails {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(1620deg);
+  }
+}
+
+.head_tail_myorder_table thead th {
+  font-size: 16px;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+.head_tail_myorder_table tbody td {
+  font-size: 14px;
+}
+
+.my_order_h_t_more_btn {
+  width: 100%;
+}
+
+@media screen and (max-height: 700px) {
+  .sapre_container {
+    width: 100vw;
+    max-width: 422px;
+    height: 210vh;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-height: 660px) {
+  .sapre_container {
+    width: 100vw;
+    max-width: 422px;
+    height: 220vh;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-height: 630px) {
+  .sapre_container {
+    width: 100vw;
+    max-width: 422px;
+    height: 230vh;
+    border: 1px solid black;
+  }
+}
